@@ -7,6 +7,12 @@ import java.util.Arrays;
  */
 public class form {
 
+    private  String[] types = {
+            "default","default-outline",
+            "success","success-outline",
+            "warnning","warnning-outline",
+            "danger","danger-outline"
+    };
 
     /*
     * Cria estrutura HTML de um botão
@@ -17,7 +23,7 @@ public class form {
     public String buttonHTML(Btn btn){
 
         String classIcon = "";
-        String[] types = {"success","success-outline","danger","danger-outline"};
+
         if( !Arrays.asList(types).contains(btn.getStr2()) ) {
             if (btn.getStr1() != null && btn.getStr2() != null && btn.getStr1().substring(0, 5).equals("icon-"))
                 classIcon = " Btn--icon-before";
@@ -77,7 +83,6 @@ public class form {
         String type = null;
         String text = null;
         String function = null;
-        String[] types = {"success","success-outline","danger","danger-outline"};
         if( Arrays.asList(types).contains(str2) )type = str2;
         else if(str2.substring(str2.length()-2,str2.length()).equals("()")) function = str2;
         else text = str2;
@@ -86,7 +91,6 @@ public class form {
     public String btn(String str1, String str2, String function){
         String type = null;
         String text = null;
-        String[] types = {"success","success-outline","danger","danger-outline"};
         if( Arrays.asList(types).contains(str2) )type = str2;
         else text = str2;
         return buttonHTML(createButton(str1,text,type,function,null,null));

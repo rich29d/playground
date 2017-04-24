@@ -22,18 +22,18 @@
       function teste(){ $('.num').text(++num); }
     </script>
 
-    <style>
-      .Btn{ margin-bottom: 20px; }
-    </style>
 
   </head>
   <body>
   <div class="num">0</div>
   <%= new form().btn("icon-ue935-rounded-plus","teste()") %>
   <%= new form().btn("Bot&atilde;o 2","success","teste()") %>
-  <%= new form().btn("icon-ue935-rounded-plus","Bot&atilde;o 3","success","teste()") %>
-  <%= new form().btn("Bot&atilde;o 4","icon-ue935-rounded-plus","danger","teste()") %>
-  <%= new form().btn("icon-ue935-rounded-plus","danger-outline","teste()") %>
+  <%= new form().btn("icon-ue935-rounded-plus","Bot&atilde;o 3","warnning","teste()") %>
+  <%= new form().btn("Bot&atilde;o 4","icon-ue935-rounded-plus","danger","teste()") %><br>
+  <%= new form().btn("icon-ue935-rounded-plus","default-outline","teste()") %>
+  <%= new form().btn("Bot&atilde;o 2","success-outline","teste()") %>
+  <%= new form().btn("icon-ue935-rounded-plus","Bot&atilde;o 3","warnning-outline","teste()") %>
+  <%= new form().btn("Bot&atilde;o 4","icon-ue935-rounded-plus","danger-outline","teste()") %>
 
   <script>
 
