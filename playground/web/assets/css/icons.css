@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "icon";
+    src:url('../fonts/n-a.eot');
+    src:url('../fonts/n-a.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/n-a.woff') format('woff'),
+        url('../fonts/n-a.ttf') format('truetype'),
+        url('../fonts/n-a.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    font-family: "icon";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-birthday-cake:before { content: "\e900"; }
+.icon-calendar-thin:before { content: "\e901"; }
+.icon-chat:before { content: "\e903"; }
+.icon-chat-active:before { content: "\e902"; }
+.icon-check:before { content: "\e904"; }
+.icon-checklist:before { content: "\e905"; }
+.icon-chevron-down:before { content: "\e906"; }
+.icon-chevron-next:before { content: "\e907"; }
+.icon-chevron-prev:before { content: "\e908"; }
+.icon-chevron-small-down:before { content: "\e909"; }
+.icon-circle-close:before { content: "\e90a"; }
+.icon-clock:before { content: "\e90b"; }
+.icon-command:before { content: "\e90c"; }
+.icon-cross:before { content: "\e90d"; }
+.icon-danger-symbol:before { content: "\e90e"; }
+.icon-despesas:before { content: "\e90f"; }
+.icon-doctor-stethoscope:before { content: "\e910"; }
+.icon-extrato:before { content: "\e914"; }
+.icon-financeiro-calendar:before { content: "\e915"; }
+.icon-financeiro-exportar:before { content: "\e916"; }
+.icon-financeiro-flag:before { content: "\e917"; }
+.icon-financeiro-imprimir:before { content: "\e918"; }
+.icon-financeiro-lixeira:before { content: "\e919"; }
+.icon-financeiro-table-flag:before { content: "\e91a"; }
+.icon-heart-beats:before { content: "\e91b"; }
+.icon-interface:before { content: "\e91c"; }
+.icon-line-chart:before { content: "\e91d"; }
+.icon-list:before { content: "\e91e"; }
+.icon-magnifying-glass:before { content: "\e91f"; }
+.icon-message:before { content: "\e920"; }
+.icon-padlock:before { content: "\e921"; }
+.icon-painel-gerencial:before { content: "\e922"; }
+.icon-paper:before { content: "\e923"; }
+.icon-passage-time:before { content: "\e924"; }
+.icon-pay-arrow:before { content: "\e926"; }
+.icon-pay-arrow-left:before { content: "\e925"; }
+.icon-pay-card:before { content: "\e927"; }
+.icon-pay-explamation:before { content: "\e928"; }
+.icon-pay-flag:before { content: "\e929"; }
+.icon-pay-money:before { content: "\e92a"; }
+.icon-pay-print:before { content: "\e92b"; }
+.icon-pay-remove:before { content: "\e92c"; }
+.icon-pen:before { content: "\e92d"; }
+.icon-plus:before { content: "\e92e"; }
+.icon-question:before { content: "\e930"; }
+.icon-question-circle:before { content: "\e92f"; }
+.icon-receitas:before { content: "\e931"; }
+.icon-refresh:before { content: "\e932"; }
+.icon-relatorios:before { content: "\e933"; }
+.icon-rounded-filled-remove:before { content: "\e934"; }
+.icon-rounded-plus:before { content: "\e935"; }
+.icon-search-file:before { content: "\e936"; }
+.icon-settings:before { content: "\e937"; }
+.icon-shopping-basket:before { content: "\e938"; }
+.icon-tab-tiss-guias:before { content: "\e939"; }
+.icon-tab-tiss-procedimentos:before { content: "\e93a"; }
+.icon-ue900-birthday-cake:before { content: "\e817"; }
+.icon-ue901-calendar-thin:before { content: "\e818"; }
+.icon-ue902-chat-active:before { content: "\e819"; }
+.icon-ue903-chat:before { content: "\e81a"; }
+.icon-ue904-check:before { content: "\e81b"; }
+.icon-ue905-checklist:before { content: "\e81c"; }
+.icon-ue906-chevron-down:before { content: "\e81d"; }
+.icon-ue907-chevron-next:before { content: "\e81e"; }
+.icon-ue908-chevron-prev:before { content: "\e81f"; }
+.icon-ue909-chevron-small-down:before { content: "\e820"; }
+.icon-ue90a-circle-close:before { content: "\e800"; }
+.icon-ue90b-clock:before { content: "\e801"; }
+.icon-ue90c-command:before { content: "\e802"; }
+.icon-ue90e-danger-symbol:before { content: "\e804"; }
+.icon-ue90f-despesas:before { content: "\e805"; }
+.icon-ue910-doctor-stethoscope:before { content: "\e821"; }
+.icon-ue911-double-chevron-left:before { content: "\e822"; }
+.icon-ue912-double-chevron-right:before { content: "\e823"; }
+.icon-ue914-extrato:before { content: "\e825"; }
+.icon-ue915-financeiro-calendar:before { content: "\e826"; }
+.icon-ue916-financeiro-exportar:before { content: "\e827"; }
+.icon-ue917-financeiro-flag:before { content: "\e828"; }
+.icon-ue918-financeiro-imprimir:before { content: "\e829"; }
+.icon-ue919-financeiro-lixeira:before { content: "\e82a"; }
+.icon-ue91a-financeiro-table-flag:before { content: "\e806"; }
+.icon-ue91b-heart-beats:before { content: "\e807"; }
+.icon-ue91c-interface:before { content: "\e808"; }
+.icon-ue91d-line-chart:before { content: "\e809"; }
+.icon-ue91e-list:before { content: "\e80a"; }
+.icon-ue91f-magnifying-glass:before { content: "\e80b"; }
+.icon-ue920-message:before { content: "\e82b"; }
+.icon-ue921-padlock:before { content: "\e82c"; }
+.icon-ue922-painel-gerencial:before { content: "\e82d"; }
+.icon-ue923-paper:before { content: "\e82e"; }
+.icon-ue924-passage-time:before { content: "\e82f"; }
+.icon-ue925-pay-arrow-left:before { content: "\e830"; }
+.icon-ue926-pay-arrow:before { content: "\e831"; }
+.icon-ue927-pay-card:before { content: "\e832"; }
+.icon-ue928-pay-explamation:before { content: "\e833"; }
+.icon-ue929-pay-flag:before { content: "\e834"; }
+.icon-ue92a-pay-money:before { content: "\e80c"; }
+.icon-ue92b-pay-print:before { content: "\e80d"; }
+.icon-ue92c-pay-remove:before { content: "\e80e"; }
+.icon-ue92d-pen:before { content: "\e80f"; }
+.icon-ue92e-plus:before { content: "\e810"; }
+.icon-ue92f-question-circle:before { content: "\e811"; }
+.icon-ue930-question:before { content: "\e835"; }
+.icon-ue931-receitas:before { content: "\e836"; }
+.icon-ue932-refresh:before { content: "\e837"; }
+.icon-ue933-relatorios:before { content: "\e838"; }
+.icon-ue934-rounded-filled-remove:before { content: "\e839"; }
+.icon-ue935-rounded-plus:before { content: "\e83a"; }
+.icon-ue936-search-file:before { content: "\e83b"; }
+.icon-ue937-settings:before { content: "\e83c"; }
+.icon-ue938-shopping-basket:before { content: "\e83d"; }
+.icon-ue939-tab-tiss-guias:before { content: "\e83e"; }
+.icon-ue93a-tab-tiss-procedimentos:before { content: "\e812"; }
+.icon-ue93b-user-add:before { content: "\e813"; }
+.icon-ue93c-vitta:before { content: "\e814"; }
+.icon-ue93e-others:before { content: "\e815"; }
+.icon-ue93f-exit:before { content: "\e816"; }
+.icon-ue940-online-schedule:before { content: "\e83f"; }
+.icon-ue941-mail:before { content: "\e840"; }
+.icon-user-add:before { content: "\e93b"; }
+.icon-vitta:before { content: "\e93c"; }
